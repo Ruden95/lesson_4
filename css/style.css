@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap&subset=cyrillic-ext');
+@import url('https://fonts.googleapis.com/css?family=Monda:regular,700&&display=swap&subset=cyrillic-ext');
+
+@font-face {
+	font-family: 'TT Lakes';
+	src: url('../fonts/TTLakes-Bold.woff2') format('woff2'),
+		 url('../fonts/TTLakes-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'TT Lakes';
+	src: url('../fonts/TTLakes-Regular.woff2') format('woff2'),
+		 url('../fonts/TTLakes-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+
+/*  _______________________________________________________________________ */
+
+body {
+	font-family: 'Oswald', sans-serif;
+}
+
+main {
+	font-family: 'TT Lakes';
+	font-size: 14px;
+	font-weight: 700;
+
+}
+
+.header__title {
+	font-size: 30px;
+}
+.header__navigation {
+}
+.navigation {
+}
+.navigation__list {
+}
+.navigation__item {
+	font-size: 18px;
+}
+.navigation__link {
+}
+.block__info {
+}
+.info {
+}
+.info__text {
+	font-size: 18px;
+	color: red;
+	font-family: "Monda";
+}
+.block__item {
+}
+.content-block {
+}
+.content-block__title {
+	font-size: 20px;
+	color: purple;
+}
+.content-block__list {
+}
+.content-block__item {
+	color: green;
+}
+.block-content {
+}
+.block-content__title {
+	color: orange;
+	font-size: 18px;
+}
+.block-content__text {
+	color: blue;
+	font-family: "Monda";
+	font-weight: 700;
+}
+
+/* ____________ font-style ____________ */
+
+.font-style-1 {
+	font-style: normal;
+	color: green;
+}
+.font-style-2 {
+	font-style: italic;
+	color: gold;
+}
+.font-style-3 {
+	font-style: oblique;
+	color: rebeccapurple;
+}
+
+/* ____________ font-weight ____________ */
+
+.font-weight-1 {
+	font-weight: 100;
+	color: red;
+}
+
+.font-weight-2 {
+	font-weight: 700;
+	color: greenyellow;
+}
+
+.font-weight-3 {
+	font-weight: 600;
+	color: red;
+}
+
+.font-weight-4 {
+	
+}
+
+/* ____________ color ____________ */
+
+.color-1 {
+	color: #bb4040c5;
+}
+
+.color-2 {
+	color: rgba(72, 143, 5, 0.2);
+}
+
+.color-3 {
+	color: hsl(12, 98%, 40%);
+}
+
+.color-4 {
+	color: hwb(54 7% 39%);
+}
+
+/* ____________ text-align ____________ */
+
+.text-align-1 {
+	text-align: center;
+	color: forestgreen;
+}
+.text-align-2 {
+	text-align: justify;
+	color:aqua;
+}
+.text-align-3 {
+	text-align: left;
+	color: darkmagenta;
+}
+.text-align-4 {
+	text-align: right;
+	color:crimson;
+}
+
+/* Не работает */
+.text-align-image {
+	text-align: center;
+}
+/* Работает, когда картинку обворачиваешь в div */
+.text-align-div-image {
+	text-align: center;
+}
+
+/* ____________ text-decoration ____________ */
+
+.text-decoration-1 {
+	text-decoration: line-through;
+	color: green;
+}
+.text-decoration-2 {
+	text-decoration: overline;
+	color: rgb(139, 0, 109);
+}
+.text-decoration-3 {
+	text-decoration: underline;
+	color: tomato;
+}
+.text-decoration-4 {
+	text-decoration: none;
+	color: magenta;
+}
+
+/* span */
+.text-decoration-5  {
+	color: red;
+	text-decoration: underline;
+}
+
+/* ____________ text-shadow ____________ */
+
+.text-shadow-1 {
+	color: darkgreen;
+	text-shadow: 3px 5px 10px #000;
+}
+.text-shadow-2 {
+	color: rgb(6, 250, 230);
+	text-shadow: 2px 1px 3px rgb(1 5 252);
+}
+
+/* span */
+.text-shadow-3 {
+	color: rgb(253, 115, 2);
+	text-shadow: 2px 1px 3px rgb(1 5 252);
+
+}
+.text-shadow-4 {
+	display: inline-block;
+	text-shadow: -1px -3px 9px rgb(1 5 252);
+}
+
+/* ____________ text-transform ____________ */
+
+.text-transform-1 {
+	color: rgb(128, 0, 0);
+	text-transform: capitalize;
+}
+.text-transform-2 {
+	text-transform: uppercase;
+	color: mediumorchid;
+}
+.text-transform-3 {
+	text-transform: lowercase;
+	color: wheat;
+}
+
+/* ____________ line-height ____________ */
+
+.line-height-1 {
+	color: red;
+	line-height: 300%;
+}
+.line-height-2 {
+	line-height: 300%;
+	color: green;
+}
+
+.line-height-3 {
+	line-height: 0.7;
+	line-height: 70%;
+	color: goldenrod;
+}
+
+/* ____________ letter-spacing ____________ */
+
+.letter-spacing-1 {
+	letter-spacing: 5px;
+/* 	letter-spacing: 10%; */ /* такое не работает */
+	color: darkorchid;
+}
+
+/* ____________ word-spacing, text-indent, white-space  ____________ */
+
+.word-spacing {
+	color: red;
+	word-spacing: 41px;
+	/* word-spacing: 200%; */ /* не работает */
+}
+.text-indent {
+	color: rgb(0, 140, 255);
+	text-indent: 100px;
+	text-indent: 20%;
+}
+.white-space {
+	color: green;
+	/* white-space: nowrap; */
+	white-space: normal;
+}
